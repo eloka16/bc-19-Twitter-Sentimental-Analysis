@@ -17,7 +17,7 @@ var rl = readline.createInterface({
 });
 console.log("Hello there!");
 rl.question('Would you like to get tweets?  ', (answer) => {
-    if (answer == "Yes") {
+    if (answer == "yes") {
         rl.question('Please enter the USERID for tweets? ', (user)=> {
 
             var options = {
@@ -27,14 +27,15 @@ rl.question('Would you like to get tweets?  ', (answer) => {
 			client.get('statuses/user_timeline', options, function(err, data, response) {
 				console.log(err, data, response.body);
                 for (var i = 0; i < data.length; i++) {
-                    var perc = i + 1;
+                     var perc = i + 1;
                     console.log('\nTweets ' + '----> ' + data[i].text + '\n');
+                    console.log('percentage ' + perc/data.length *100 + '%');
                 }
             });
 
             rl.close();
         });		
-	} else if (answer == "No") {        
+	} else if (answer == "no") {        
                 console.log("Thank you for stopping by.")
         
     } else {

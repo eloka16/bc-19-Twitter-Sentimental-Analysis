@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/eloka16/bc-19-Twitter-Sentimental-Analysis/issues"
   },
-  "homepage": "https://github.com/eloka16/bc-19-Twitter-Sentimental-Analysis#readme"
+  "homepage": "https://github.com/eloka16/bc-19-Twitter-Sentimental-Analysis#readme",
+  "dependencies": {
+    "dotenv": "^2.0.0"
+  }
 }

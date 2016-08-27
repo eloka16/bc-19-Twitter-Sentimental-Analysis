@@ -1,0 +1,22 @@
+{
+  "name": "twitter-sentiment-analysis",
+  "version": "1.0.0",
+  "description": "A sentiment Analysis Application for tweets",
+  "main": "index.js",
+  "scripts": {
+    "test": "twitter"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eloka16/bc-19-Twitter-Sentimental-Analysis.git"
+  },
+  "keywords": [
+    "sentiment-analysis"
+  ],
+  "author": "Henry Chukwu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eloka16/bc-19-Twitter-Sentimental-Analysis/issues"
+  },
+  "homepage": "https://github.com/eloka16/bc-19-Twitter-Sentimental-Analysis#readme"
+}

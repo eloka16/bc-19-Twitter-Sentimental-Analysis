@@ -4,7 +4,7 @@
   "description": "A sentiment Analysis Application for tweets",
   "main": "index.js",
   "scripts": {
-    "test": "twitter"
+    "test": "./node_modules/.bin/mocha"
   },
   "repository": {
     "type": "git",
@@ -21,5 +21,9 @@
   "homepage": "https://github.com/eloka16/bc-19-Twitter-Sentimental-Analysis#readme",
   "dependencies": {
     "dotenv": "^2.0.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.0.2"
   }
 }
